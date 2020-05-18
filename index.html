@@ -6,229 +6,166 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <style>
-            body,html {
-				height:100%;
-				background-color: #EFEFEF;
-            }
-			section:nth-child(even) {
-				background-color: #EFEFEF;
-			}
-            .section {
-				background-size:cover;
-				background-position: center center;
-				width:100%;
-				min-height:100%;
-				padding-top:75px;
-            }
-			#welcome {
-				background-color: #672955;
-				opacity: .8;
-			}
-			#compname, #aboutus, #productsname, #intro, #contact {
-				color: #555555;
-			}
-			#homepage {
-				background-image: url("homepage.png");
-				background-size: cover;
-			}
-			#intro {
-				background-image: url("intro.png");
-				background-size: cover;
-			}
-            #introtext {
-				word-wrap: break-word;
-				width: 30%;
-            }
-			#aboutustext {
-				word-wrap: break-word;
-				width: 50%;
-			}
-			#about {
-				background-image: url("aboutus.jpg");
-				background-size: cover;
-			}
-			#products {
-				background-image: url("products.jpg");
-				background-size: cover;
-			}
-			#contact {
-				background-image: url("contact.jpg");
-				background-size: cover;
-			}
-			footer {
-			}
-        </style>
+        <!-- custom CSS -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+		
         <title>Munchkin Kitten Bakery</title>
     </head>
     <body>
-	
         <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top" >
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-md-flex d-block flex-row mx-md-auto mx-0">
+					<a href="#products" class="nav-item nav-link">Products</a>
+					<a href="#intro" class="nav-item nav-link">Intro</a>
+                    <a href="#" class="navbar-brand pl-3">
+                    <img src="logo.png" height="28" alt="logo">
+                    </a>
                     <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#products" class="nav-item nav-link">Products</a>
-					<a href="#" class="navbar-brand pl-3">
-						<img src="logo.png" height="28" alt="logo">
-					</a>
-					<a href="#intro" class="nav-item nav-link">Introduction</a>
                     <a href="#contact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
-		
-        <section id="homepage" class="jumbotron section text-center child">
-				<!--  Your Company Introduction Section --->
-			<div class="container-fluid">
-				<h1 id="compname" class="display-1">Munchkin Kitten Bakery</h1>
-				<p class="lead">Spa and treats paradise for the best munchkin kittens</p>
-				<div class="container">
-					<div class="row">
-						<div class="card-deck mt-5 w-75 mx-auto">
-							<div class="card">
-								<div class="card-header bg-dark text-light">New</div>
-								<img src="milk.png" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title mt-3">Kitten Milk</h5>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header bg-dark text-light">New</div>
-								<img src="box.png" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Kitten Box</h5>
-								</div>
-							</div>
-							<div class="col-sm-2 my-auto">
-								<div class="card">
-									<a href="#products" class="btn btn-dark">Shop »</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+        <section id="homepage" class="jumbotron section text-center">
+            <!--  Your Company Introduction Section -->
+            <div class="container-fluid">
+                <h1 id="compname" class="display-1">Munchkin Kitten Bakery</h1>
+                <p class="lead">Spa and treats paradise for the best munchkin kittens</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="card-deck mt-5 w-75 mx-auto">
+                            <div class="card">
+                                <div class="card-header bg-dark text-light">New</div>
+                                <img src="milk.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-3">Kitten Milk</h5>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-dark text-light">New</div>
+                                <img src="box.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kitten Box</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 my-auto">
+                                <div class="card">
+                                    <a href="#products" class="btn btn-dark">Shop »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-		
-		
-		<section id="products" class="section text-center child">
-				<!-- Products Section -->
-			<h1 id="productsname" class="display-1">Products</h1>
-			<div class="container">
-				<div class="row">
-					<div class="card-deck mt-5">
-						<div class="card">
-							<div class="card-header bg-dark text-light">New</div>
-							<img src="milk.png" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title mt-1">Kitten Milk</h5>
-								<p class="card-text">A rare treat of grass-fed cow milk.</p>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header bg-dark text-light">New</div>
-								<img src="box.png" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Kitten Box</h5>
-									<p class="card-text">A kitten's most favorite toy.</p>
-								</div>
-							</div>
-							<div class="card">
-							<img src="kitbath.png" class="card-img-top  w-75 mx-auto" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">Kitten Bath</h5>
-								<p class="card-text">A luxury wash.</p>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
+        <section id="products" class="section text-center">
+            <!-- Products Section -->
+            <h1 id="productsname" class="display-1">Products</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="card-deck mt-5">
+                        <div class="card">
+                            <div class="card-header bg-dark text-light">New</div>
+                            <img src="milk.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title mt-1">Kitten Milk</h5>
+                                <p class="card-text">A rare treat of grass-fed cow milk.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-dark text-light">New</div>
+                            <img src="box.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kitten Box</h5>
+                                <p class="card-text">A kitten's most favorite toy.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="kitbath.png" class="card-img-top  w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kitten Bath</h5>
+                                <p class="card-text">A luxury wash.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-		
-		
-        <section id="intro" class="section text-center child">
-				<!-- Welcome/Introduction section -->
-			<div class="container-fluid">
-				<h1 id="introname" class="display-1">Introduction</h1>
-				<p id="introtext" class="lead mt-5 mx-auto text-muted">Founded in 2020, the original Munchkin Kitten Bakery ignited a modern spa and treats revolution with ingenious products, a super-positive, never-fussy vibe, and thin mints. Did we mention the thin mints?
-					<br><br>
-					We want everyone to give their kitten the best. So, we leverage the newest technologies (and crunch so many numbers) to bring you treat and spa services that work in every budget.</p>
-			</div>
-		</section>
-		
-		
-        <section id="about" class="section text-center child">
-				<!-- About Section -->
-			<h1 id="aboutus" class="display-1">About Us</h1>
-			<div class="container">
-				<p id="aboutustext" class="lead mt-5 mx-auto text-muted">At Munchkin Kitten Bakery, we believe there is a better way to do marketing. A more valuable, less invasive way where customers are earned rather than bought. We're obsessively passionate about it, and our mission is to help people achieve it. We focus on treat & spa optimization. It's one of the least understood and least transparent aspects of great marketing, and we see that as an opportunity: We're excited to simplify kitten vacation for everyone through our spa, treats, and community.</p>
-			</div>
+        <section id="intro" class="section text-center">
+            <!-- Welcome/Introduction section -->
+            <div class="container-fluid">
+                <h1 id="introname" class="display-1">Intro</h1>
+                <p id="introtext" class="lead mt-5 mx-auto text-muted">Founded in 2020, the original Munchkin Kitten Bakery ignited a modern spa and treats revolution with ingenious products, a super-positive, never-fussy vibe, and thin mints. Did we mention the thin mints?
+                    <br><br>
+                    We want everyone to give their kitten the best. So, we leverage the newest technologies (and crunch so many numbers) to bring you treat and spa services that work in every budget.
+                </p>
+            </div>
         </section>
-		
-		
-        <section id="contact" class="section jumbotron text-center child">
-				<!-- Contact Section -->
-			<h1 id="contactname" class="display-1">Contact Us</h1>
-			<form method="post">
-				<div class="form-group mt-4">
-					<label for="usr">First Name:</label>
-					<input type="text" class="form-control form-control-sm w-25 mx-auto" id="firstName" placeholder="First Name" required>
-				</div>
-				<div class="form-group">
-					<label for="usr">Last Name:</label>
-					<input type="text" class="form-control form-control-sm w-25 mx-auto" id="lastName" placeholder="Last Name" required>
-				</div>
-				<div class="form-group">
-					<label for="inputEmail">Email:</label>
-					<input type="email" class="form-control form-control-sm w-25 mx-auto" id="inputEmail" placeholder="Email" required>
-				</div>
-				<div class="form-group">
-					<label for="tel-input">Work Phone Number:</label>
-					<input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" placeholder="Work Phone Number" required>
-				</div>
-				<div class="form-group">
-					<label for="tel-input">Cellphone Number:</label>
-					<input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" placeholder="Cellphone Number" required>
-				</div>
-				<div class="checkbox">
-					<label class="form-check-label"><input type="checkbox"> Opt in for marketing information from us</label>
-				</div>
-				<button type="submit" class="btn btn-primary mt-3">Submit</button>
-			</form>
+        <section id="about" class="section text-center">
+            <!-- About Section -->
+            <h1 id="aboutus" class="display-1">About Us</h1>
+            <div class="container">
+                <p id="aboutustext" class="lead mt-5 mx-auto text-muted">At Munchkin Kitten Bakery, we believe there is a better way to do marketing. A more valuable, less invasive way where customers are earned rather than bought. We're obsessively passionate about it, and our mission is to help people achieve it. We focus on treat & spa optimization. It's one of the least understood and least transparent aspects of great marketing, and we see that as an opportunity: We're excited to simplify kitten vacation for everyone through our spa, treats, and community.</p>
+            </div>
         </section>
-		
-		
-        <footer id="footer" class="container-fluid text-center child">
-				<!-- Footer section -->
-			<div class="row">
-				<div class="col">
-					<p class="text-dark">Need more information? Call (860) 555-5555</p>
-				</div>
-				<div class="col">
-					<p class="text-dark">Join Now<br>
-					<a href="" target="_blank" class="btn btn-outline-success btn-sm">Go Here</a></p>
-				</div>
-				<div class="col">
-					<p>Copyright &copy; 2020 Munchkin Kitten Bakery</p>
-				</div>
-			</div>
+        <section id="contact" class="section jumbotron text-center">
+            <!-- Contact Section -->
+            <h1 id="contactname" class="display-1">Contact Us</h1>
+            <form method="post">
+                <div class="form-group mt-4">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email:</label>
+                    <input type="email" class="form-control form-control-sm w-25 mx-auto" id="inputEmail" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="workCell">Work Phone Number:</label>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" placeholder="Work Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="cellphone">Cellphone Number:</label>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" placeholder="Cellphone Number" required>
+                </div>
+                <div class="checkbox">
+                    <label class="form-check-label"><input type="checkbox"> Opt in for marketing information from us</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </section>
+        <footer id="footer" class="container-fluid text-center">
+            <!-- Footer section -->
+            <div class="row">
+                <div class="col">
+                    <p class="text-dark">Need more information? Call (860) 555-5555</p>
+                </div>
+                <div class="col">
+                    <p class="text-dark">Join Now<br>
+                        <a href="" target="_blank" class="btn btn-outline-success btn-sm">Go Here</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <p>Copyright &copy; 2020 Munchkin Kitten Bakery</p>
+                </div>
+            </div>
         </footer>
-		
-		
-		
-			<!-- Optional JavaScript -->
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script>
             // scrollspy jquery code here...	
              $(document).ready(function(){
-				$('body').scrollspy({target: "#nav", offset: 50});
-			});
+            $('body').scrollspy({target: "#nav", offset: 50});
+            });
         </script>
     </body>
 </html>
