@@ -1,0 +1,46 @@
+body,html {
+	height:100%;
+	background-color: #EFEFEF;
+}
+section:nth-child(even) {
+	background-color: #EFEFEF;
+}
+.section {
+	background-size:cover;
+	background-position: center center;
+	width:100%;
+	min-height:100%;
+	padding-top:75px;
+	margin: 0px;
+}
+#compname, #aboutus, #productsname, #intro, #contact {
+	color: #555555;
+}
+#homepage {
+	background-image: url("homepage.png");
+	background-size: cover;
+}
+#intro {
+	background-image: url("intro.png");
+	background-size: cover;
+}
+#introtext {
+	word-wrap: break-word;
+	width: 30%;
+}
+#aboutustext {
+	word-wrap: break-word;
+	width: 50%;
+}
+#about {
+	background-image: url("aboutus.jpg");
+	background-size: cover;
+}
+#products {
+	background-image: url("products.jpg");
+	background-size: cover;
+}
+#contact {
+	background-image: url("contact.jpg");
+	background-size: cover;
+}
