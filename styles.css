@@ -24,14 +24,6 @@ section:nth-child(even) {
 	background-image: url("intro.png");
 	background-size: cover;
 }
-#introtext {
-	word-wrap: break-word;
-	width: 30%;
-}
-#aboutustext {
-	word-wrap: break-word;
-	width: 50%;
-}
 #about {
 	background-image: url("aboutus.jpg");
 	background-size: cover;
@@ -43,4 +35,14 @@ section:nth-child(even) {
 #contact {
 	background-image: url("contact.jpg");
 	background-size: cover;
+}
+.buttonsize {
+	min-width: 80px;
+    max-width: 80px;
+}
+@media (max-width: 576px) {
+    .buttonsize {
+		min-width: 0px;
+		max-width: 100%;
+	}
 }
