@@ -143,16 +143,16 @@
                 </div>
                 <div class="form-group">
                     <label for="workCell">Work Phone Number:</label>
-                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" placeholder="Work Phone Number" required>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" pattern="^\d{3-\d{3}-\d{4}$" placeholder="Work Phone Number" required>
                 </div>
                 <div class="form-group">
                     <label for="cellphone">Cellphone Number:</label>
-                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" placeholder="Cellphone Number" required>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="Cellphone Number" required>
                 </div>
                 <div class="checkbox">
                     <label class="form-check-label"><input type="checkbox"> Opt in for marketing information from us</label>
                 </div>
-                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                <button type="submit" class="btn btn-secondary mt-3">Submit</button>
             </form>
         </section>
         <footer id="footer" class="container-fluid text-center">
