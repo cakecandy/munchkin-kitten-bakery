@@ -13,15 +13,15 @@ section:nth-child(even) {
 	padding-top:75px;
 	margin: 0px;
 }
-#compname, #aboutus, #productsname, #intro, #contact {
+#compname, #aboutus, #productsname, #welcome, #contact {
 	color: #555555;
 }
 #homepage {
 	background-image: url("homepage.png");
 	background-size: cover;
 }
-#intro {
-	background-image: url("intro.png");
+#welcome {
+	background-image: url("welcome.png");
 	background-size: cover;
 }
 #about {
