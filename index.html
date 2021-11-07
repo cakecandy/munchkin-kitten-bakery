@@ -1,6 +1,4 @@
-<!doctype html>
-<html lang="en">
-    <head>
+<html lang="en"><head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,13 +10,13 @@
         <title>Munchkin Kitten Bakery</title>
     </head>
     <body>
-        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top" >
+        <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-md-flex d-block flex-row mx-md-auto mx-0">
-					<a href="#products" class="nav-item nav-link">Products</a>
+					<a href="#products" class="nav-item nav-link active">Products</a>
 					<a href="#welcome" class="nav-item nav-link">Welcome</a>
                     <a href="#" class="navbar-brand pl-3">
                     <img src="logo.png" height="28" alt="logo">
@@ -83,6 +81,7 @@
                             </div>
                         </div>
                         <div class="card">
+    <div class="card-header bg-dark text-light">New</div>
                             <img src="kitbath.png" class="card-img-top  w-75 mx-auto" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Kitten Bath</h5>
@@ -99,13 +98,13 @@
                 <h1 id="welcomename" class="display-3 font-weight-bold">Welcome</h1>
                 <p id="welcometext" class="lead mx-auto text-muted small">
 				Founded in 2020, the original Munchkin
-				<br />Kitten Bakery ignited a modern spa and treats 
-				<br />revolution with ingenious products, a
-				<br />super-positive, never-fussy vibe, and thin mints.
-				<br />Did we mention the thin mints?
-                    <br /><br />
+				<br>Kitten Bakery ignited a modern spa and treats 
+				<br>revolution with ingenious products, a
+				<br>super-positive, never-fussy vibe, and thin mints.
+				<br>Did we mention the thin mints?
+                    <br><br>
                     We want everyone to give their kitten the<br>best. So, we leverage the newest<br>technologies (and crunch so many numbers)
-					<br />to bring you treat and spa services that<br>work in every budget.
+					<br>to bring you treat and spa services that<br>work in every budget.
                 </p>
             </div>
         </section>
@@ -115,14 +114,14 @@
             <div class="container">
                 <p id="aboutustext" class="lead mx-auto text-muted small">
 				At Munchkin Kitten Bakery, we believe there is a 
-				<br />better way to do marketing. A more valuable, less invasive way 
-				<br />where customers are earned rather than bought. 
-				<br /><br />We're obsessively passionate about
-				<br />it, and our mission is to help people achieve it. We
-				<br />focus on treat & spa optimization. 
-				<br /><br />We're excited to simplify 
-				<br />kitten vacation for everyone through 
-				<br />our spa, treats, and community.</p>
+				<br>better way to do marketing. A more valuable, less invasive way 
+				<br>where customers are earned rather than bought. 
+				<br><br>We're obsessively passionate about
+				<br>it, and our mission is to help people achieve it. We
+				<br>focus on treat &amp; spa optimization. 
+				<br><br>We're excited to simplify 
+				<br>kitten vacation for everyone through 
+				<br>our spa, treats, and community.</p>
             </div>
         </section>
         <section id="contact" class="section jumbotron text-center">
@@ -131,23 +130,23 @@
             <form method="post">
                 <div class="form-group mt-4">
                     <label for="firstName">First Name:</label>
-                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="firstName" placeholder="First Name" required>
+                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="firstName" placeholder="First Name" required="">
                 </div>
                 <div class="form-group">
                     <label for="lastName">Last Name:</label>
-                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="lastName" placeholder="Last Name" required>
+                    <input type="text" class="form-control form-control-sm w-25 mx-auto" id="lastName" placeholder="Last Name" required="">
                 </div>
                 <div class="form-group">
                     <label for="inputEmail">Email:</label>
-                    <input type="email" class="form-control form-control-sm w-25 mx-auto" id="inputEmail" placeholder="Email" required>
+                    <input type="email" class="form-control form-control-sm w-25 mx-auto" id="inputEmail" placeholder="Email" required="">
                 </div>
                 <div class="form-group">
                     <label for="workCell">Work Phone Number:</label>
-                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" pattern="^\d{3-\d{3}-\d{4}$" placeholder="Work Phone Number" required>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="workCell" pattern="^\d{3-\d{3}-\d{4}$" placeholder="Work Phone Number" required="">
                 </div>
                 <div class="form-group">
                     <label for="cellphone">Cellphone Number:</label>
-                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="Cellphone Number" required>
+                    <input type="tel" class="form-control form-control-sm w-25 mx-auto" id="cellphone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="Cellphone Number" required="">
                 </div>
                 <div class="checkbox">
                     <label class="form-check-label"><input type="checkbox"> Opt in for marketing information from us</label>
@@ -167,7 +166,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <p>Copyright &copy; 2020 Munchkin Kitten Bakery</p>
+                    <p>Copyright © 2020 Munchkin Kitten Bakery</p>
                 </div>
             </div>
         </footer>
@@ -182,5 +181,6 @@
             $('body').scrollspy({target: "#nav", offset: 50});
             });
         </script>
-    </body>
-</html>
+    
+
+</body></html>
