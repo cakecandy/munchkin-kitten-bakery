@@ -1,2 +1,2 @@
 # Link
-https://cakecandy.github.io/munchkin-kitten-bakery/
+[Click here to view my site!](https://catcakie.github.io/munchkin-kitten-bakery/)
